@@ -5,7 +5,7 @@ DAEMON_HOME=/Users/mitsuji/Documents/dev/daemonbase
 case "$1" in
     "start" )
 	echo "starting daemonbase.."
-	${DAEMON_HOME}/daemon ${DAEMON_HOME}/daemonbase.pid ${DAEMON_HOME}/daemon.conf.posix.osx
+	${DAEMON_HOME}/daemon1 ${DAEMON_HOME}/daemonbase.pid ${DAEMON_HOME}/daemon.conf.posix.osx
 	;;
     "stop" )
 	echo "stopping daemonbase.."

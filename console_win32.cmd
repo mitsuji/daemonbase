@@ -1,4 +1,4 @@
 @echo off
 
-console.exe daemon.conf.console
+console1.exe daemon.conf.console
 

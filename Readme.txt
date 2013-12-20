@@ -21,11 +21,18 @@ config: daemon.conf.console
 [Windows Service]
 config: daemon.conf.win32
 
->SC create daemonbase1 binPath= "C:\Users\mitsuji\Documents\dev\daemonbase\service.exe ""C:\Users\mitsuji\Documents\dev\daemonbase\daemon.conf.win32"""
+>SC create daemonbase1 binPath= "C:\Users\mitsuji\Documents\dev\daemonbase\service1.exe ""C:\Users\mitsuji\Documents\dev\daemonbase\daemon.conf.win32"""
 >SC delete daemonbase1
 
 >net start daemonbase1
 >net stop daemonbase1
+
+
+>SC create daemonbase2 binPath= "C:\Users\mitsuji\Documents\dev\daemonbase\service2.exe ""C:\Users\mitsuji\Documents\dev\daemonbase\daemon.conf.win32"""
+>SC delete daemonbase2
+
+>net start daemonbase2
+>net stop daemonbase2
 
 
 
