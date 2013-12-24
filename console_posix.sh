@@ -1,4 +1,4 @@
 #!/bin/sh
 
-./console daemon.conf.console
+./console1 daemon.conf.console
 
